@@ -1,2 +1,29 @@
-# html_test
-This is a test repo to put my html project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="email">Name:</label>
+        <input type="text" id="email" placeholder="email" required="true"> <br>
+
+        <label for="user_password">Password:</label>
+        <input id="user_password" type="password"> <br>
+        Date: <input type="date"> <br>
+        File: <input type="file"> <br>
+        Color: <input type="color"> <br>
+        Price Range: <input type="range"> <br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="female">Female:</label> 
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="other">other:</label> 
+        <input type="radio" id="other" name="gender" value="other"><br>
+         <input type="submit">
+    </form>
+    
+</body>
+</html>
